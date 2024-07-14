@@ -9,7 +9,7 @@ int main()
     printf("Welcome to BYKIG!!!\a\a\nEnter the filename to be interpreted:\t");
     gets( fn);
     strcat(cmd, fn);
-    strcat(cmd, ".txt");
+    strcat(cmd, ".bykig");
 
     FILE *fp= fopen("temp.bat","w");
     fputs( cmd, fp);
